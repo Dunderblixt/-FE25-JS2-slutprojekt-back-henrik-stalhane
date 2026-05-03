@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import membersRouter from "./endpoints/Members";
 import tasksRouter from "./endpoints/Tasks";
-import { Category } from "../shared/types";
+import { Category } from "./types";
 
 const categories: Category[] = ["UX", "frontend-dev", "backend-dev"];
 

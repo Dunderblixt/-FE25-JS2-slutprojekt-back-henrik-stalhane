@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
-import { DbData } from "../../shared/types";
+import { DbData } from "../types";
 
 const dbFilePath = path.join(__dirname, "..", "data", "db.json");
 

@@ -1,6 +1,6 @@
 import { randomUUID } from "crypto";
 import { Request, Response, Router } from "express";
-import { Category, Member } from "../../shared/types";
+import { Category, Member } from "../types";
 import { readDb, writeDb } from "../services/fileService";
 
 const allowedCategories: Category[] = ["UX", "frontend-dev", "backend-dev"];

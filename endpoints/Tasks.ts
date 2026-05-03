@@ -1,7 +1,7 @@
 import { Request, Response, Router } from "express";
 import { randomUUID } from "crypto";
 import { readDb, writeDb } from "../services/fileService";
-import { Category, Task } from "../../shared/types";
+import { Category, Task } from "../types";
 
 const allowedCategories: Category[] = ["UX", "frontend-dev", "backend-dev"];
 
